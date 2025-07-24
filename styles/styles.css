@@ -43,6 +43,7 @@ nav ul {
   width: 1140px;
   margin: 0 auto;
 }
+
 .badge {
   width: 286px;
   animation: spin 5s linear infinite;
@@ -52,7 +53,7 @@ nav ul {
     width: full;
     height: 533px;
     background-image: url("../assets/news-letter-bg.png");
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 .footer{
@@ -83,5 +84,8 @@ nav ul {
   .original,.pictures,footer{
     width: 100%;
   }
+  .boy, .original-text{
+    padding: 60px;
+}
   
 }
