@@ -130,17 +130,27 @@
         </div>
       </div>
     </section>
-    <section class="original flex items-center justify-center mb-32 my-25">
+    <section class="original flex items-center justify-center my-25">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-15">
-        <div
-          class="original-bg bg-[url('./assets/flower-store.png')] bg-cover bg-center bg-no-repeat "
-        >
-          <img class="badge -mt-36 ms-96" src="./assets/trusted-badge.png" alt="">
+        <div class="relative h-[597px] rounded-lg ">
+      <img
+        src="./assets/flower-store.png"
+        alt="Bloom Plant"
+        class="w-full h-full object-cover "
+      />
+      <div class="absolute -mt-140 -me-110 inset-0 flex flex-col justify-center items-center text-white text-center z-10">
+        <img
+            class="badge "
+            src="./assets/trusted-badge.png"
+            alt=""
+          />
+      </div>
+          
         </div>
         <div class="original-text py-9 ps-15 w-full">
           <h3 class="font-bold text-5xl">Flower & Plants Lover</h3>
-          <ul class=" list-disc pl-5">
-            <li class="text-gray-400 my-5 ">
+          <ul class="list-disc pl-5">
+            <li class="text-gray-400 my-5">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh.
@@ -159,6 +169,72 @@
         </div>
       </div>
     </section>
-    
+    <section
+      class="deals flex items-center justify-center flex-col text-center my-32"
+    >
+      <h2 class="text-5xl font-bold">
+        <span class="text-orange-500">Latest</span> Deals
+      </h2>
+      <p class="text-2xl text-gray-400 p-4">
+        Indulge your senses with the beauty and fragrance of our fresh flower
+        shop. From<br />classic roses to exotic blooms, we offer a wide variety
+        of fresh.
+      </p>
+    </section>
+    <section class="pictures flex items-center justify-center text-center">
+     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 bg-gray-100 w-full">
+  <!-- Left stacked cards -->
+  <div class="flex flex-col gap-4">
+    <!-- Bloom Plant Card -->
+    <div class="relative h-48 rounded-lg overflow-hidden">
+      <img
+        src="./assets/deal-bloom.png"
+        alt="Bloom Plant"
+        class="w-full h-full object-cover brightness-50"
+      />
+      <div class="absolute inset-0 flex flex-col justify-center items-center text-white text-center z-10">
+        <h2 class="text-lg font-bold">60% Off | Bloom Plant</h2>
+        <button class="mt-2 underline font-semibold">Shop Now</button>
+      </div>
+    </div>
+    <!-- Ana Plant Card -->
+    <div class="relative h-48 rounded-lg overflow-hidden">
+      <img
+        src="./assets/deal-ana.png"
+        alt="Ana Plant"
+        class="w-full h-full object-cover brightness-50"
+      />
+      <div class="absolute inset-0 flex flex-col justify-center items-center text-white text-center z-10">
+        <h2 class="text-lg font-bold">30% Off | Ana Plant</h2>
+        <button class="mt-2 underline font-semibold">Shop Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Large Zabo Plant Card -->
+  <div class="relative rounded-lg overflow-hidden h-full md:col-span-2 md:row-span-2 min-h-[24rem]">
+    <img
+      src="./assets/deal-zabo.png"
+      alt="Zabo Plant"
+      class="w-full h-full object-cover brightness-50"
+    />
+    <div class="absolute inset-0 flex flex-col justify-center items-center text-white text-center z-10">
+      <h2 class="text-3xl font-bold">25% Off | Zabo Plant</h2>
+      <button class="mt-4 underline text-lg font-semibold">Shop Now</button>
+    </div>
+  </div>
+</div>
+
+    </section>
+    <section class="search flex justify-center align-middle flex-col w-full">
+        <h2 class="text-white noto-serif-font font-bold text-5xl mb-5 text-center">Join the colorful Bunch</h2>
+        <div>
+            <form class="flex justify-center" action="">
+                <input class="bg-gray-100 h-[50px] me-0 border-0 w-130 p-3" type="email" name="" id="" placeholder="Write Email"> 
+                <button class="text-white bg-orange-500 w-44 h-[50px] text-xl -ms-3 ">Subscribe</button>
+                
+            </form>
+        </div>
+    </section>
   </body>
 </html>

@@ -30,17 +30,30 @@ nav ul {
 /* plan section  */
 /* original  */
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-.original {
+.original,
+.pictures {
   width: 1140px;
   margin: 0 auto;
 }
 .badge {
   width: 286px;
   animation: spin 5s linear infinite;
+}
+.search{
+    margin: 120px 0;
+    width: full;
+    height: 533px;
+    background-image: url("../assets/news-letter-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* nav responsive  */
@@ -54,5 +67,11 @@ nav ul {
   .hero {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .badge{
+    display: none;
+  }
+  .original,.pictures{
+    width: 100%;
   }
 }
