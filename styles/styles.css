@@ -55,6 +55,14 @@ nav ul {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.footer{
+    width: 1140px;
+    margin: 0px auto;
+}
+.foot-img{
+    width: 36px;
+    height: 36px;
+}
 
 /* nav responsive  */
 @media screen and (max-width: 576px) {
@@ -71,7 +79,8 @@ nav ul {
   .badge{
     display: none;
   }
-  .original,.pictures{
+  .original,.pictures,footer{
     width: 100%;
   }
+  
 }
