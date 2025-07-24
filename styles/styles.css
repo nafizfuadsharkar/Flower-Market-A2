@@ -39,7 +39,7 @@ nav ul {
 }
 
 .original,
-.pictures {
+.pictures{
   width: 1140px;
   margin: 0 auto;
 }
@@ -73,6 +73,7 @@ nav ul {
     display: none;
   }
   .hero {
+    width: 100%;
     display: flex;
     flex-direction: column-reverse;
   }
