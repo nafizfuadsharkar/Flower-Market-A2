@@ -18,7 +18,7 @@
     ></script>
   </head>
   <body class="bg-gray-100">
-    <header class="h-100%">
+    <header class="h-100vh mb-8">
       <nav class="nav w-100%">
         <div><img src="./assets/logo.png" alt="" /></div>
         <div class="menu">
@@ -32,7 +32,7 @@
           </ul>
         </div>
       </nav>
-      <div class="hero grid grid-cols-1 md:grid-cols-2 items-end">
+      <div class="hero grid grid-cols-1 md:grid-cols-2 items-end md:pt-35">
         <div class="hero-text">
           <h2 class="text-6xl noto-serif-font font-bold">
             ALWAYS <span class="text-orange-500">FRESH<br />FLOWERS</span>
@@ -50,7 +50,7 @@
     </header>
     <section class="plan flex items-center justify-center mb-32">
       <div>
-        <div class="plan-text text-center">
+        <div class="plan-text text-center my-[40px]">
           <h3 class="text-5xl font-bold noto-serif-font">
             <span class="text-orange-500">Our</span> Plants
           </h3>
@@ -131,20 +131,24 @@
       </div>
     </section>
     <section class="original flex items-center justify-center my-25">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-15">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="relative h-[597px] rounded-lg">
-          <img 
+          <img
             src="./assets/flower-store.png"
             alt="Bloom Plant"
             class="boy w-full h-full object-cover"
           />
           <div
-            class="absolute -mt-140 -me-110 inset-0 flex flex-col justify-center items-center text-white text-center z-10"
+            class="absolute inset-0 flex flex-col justify-center items-center text-white text-center z-10"
           >
-            <img class="badge" src="./assets/trusted-badge.png" alt="" />
+            <img
+              class="badge -mt-140 -me-110"
+              src="./assets/trusted-badge.png"
+              alt=""
+            />
           </div>
         </div>
-        <div class="original-text py-9 ps-15 w-full my-auto ">
+        <div class="original-text py-9 ps-15 w-full my-auto">
           <h3 class="font-bold text-5xl">Flower & Plants Lover</h3>
           <ul class="list-disc pl-5">
             <li class="text-gray-400 my-5">
@@ -241,7 +245,7 @@
       <div>
         <form class="flex justify-center formtext" action="">
           <input
-            class="bg-gray-100 h-[50px] me-0 border-0 w-130 p-3"
+            class="bg-gray-100 h-[50px] border-0 w-full max-w-md p-3"
             type="email"
             name=""
             id=""

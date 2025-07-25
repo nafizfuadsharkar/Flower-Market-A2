@@ -7,6 +7,7 @@
   font-variation-settings: "wdth" 100;
 }
 
+
 /* nav design  */
 .nav {
   display: flex;
@@ -38,9 +39,13 @@ nav ul {
   }
 }
 
+.nav,
+.hero,
 .original,
-.pictures {
-  width: 1140px;
+.pictures,
+.footer {
+  width: 100%;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -50,7 +55,7 @@ nav ul {
 }
 .search {
   margin: 120px 0;
-  width: full;
+  width: 100%;
   height: 533px;
   background-image: url("../assets/news-letter-bg.png");
   background-size: cover;
